@@ -10,7 +10,5 @@ class Game:
         player_answer = input(f"Q{self.question_num}: {current_question.question}: ")
         if player_answer == current_question.answer:
             self.score += 1
-        else:
-            self.score += 0
         self.question += 1
         self.question_num += 1
